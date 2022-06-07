@@ -1,0 +1,66 @@
+@import url('./variables.css');
+
+html,
+body {
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    background-color: var(--section-bg-color);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.panel {
+    border-radius: 4px;
+    
+
+}
+
+.panel-heading {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.panel-body {
+    
+    font-family:'Montserrat', sans-serif;
+    background: #f1f1f1;
+    border: 0px;
+    padding: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.center {
+    text-align:center;
+}
+
+
+#submit {
+    float:right;
+
+}
+
+.delete-section {
+    padding: 15px 0;
+}
+
+.delete-section h3 {
+    color: red;
+    border-bottom: 1px solid #000;
+}
+
+
+
+
+
+

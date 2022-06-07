@@ -1,0 +1,123 @@
+@import url(../styles/variables.css);
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Start main features*/
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.card h3 {
+    color: #889eab;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.card p {
+    line-height: 2;
+    color: #4c5e68;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a :hover{
+    color: #5f76db;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+/* End main features*/
+
+/* Year */
+
+#heading {
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/job-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#heading h1{
+    font-family: var(--montserrat);
+    padding-top: 170px;
+    font-size: 70px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.search-box {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+    color: #fff;
+}
+
+.search-button:hover {
+    color: #000;
+    background-color: var(--primary-color);
+}
+
+.Year {
+    margin-bottom: 70px;
+    font-family: "Poppins", sans-serif;
+    border-color: #e6e6e6;
+    vertical-align: middle;
+}
+
+
+
+
+/* Start News */
+.News {
+    margin-bottom: 70px;
+}
+
+.News .n {
+    padding: 10px;
+}
+
+.News .card {
+    background-color: white;
+}
+
+.News .card img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.News .card .info {
+    padding: 20px;
+}
+
+.News .card .info h3 {
+    margin: 0;
+
+}
+
+.News .card .info p {
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* End News */

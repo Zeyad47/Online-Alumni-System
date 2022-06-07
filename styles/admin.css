@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.bkground{
+    background: #6395a8;
+    color: white;
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light{
+    background-color: #51c4d3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.other{
+    font-weight: bold;
+}
+
+.logout-btn{
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.last{
+    
+    padding-left: 550px;
+}
+
+
+
+
+.sidenav{
+    background-color: #126e82;
+    color: white;
+}
+
+.sidenav-bg{
+    background-color: #126e82;
+}
+
+a { color: #ffffff; }
+
+a:hover{
+    color: #132c33;
+}
+
+
+.sidenav a:hover{
+    color: #ffffff;
+    background-color: #132c33;
+}
+
+.activea{
+    background-color: #132c33;
+}
+
+table{
+    margin: 20px;
+}
+
+form div{
+    margin-bottom: 30px;
+}
+
+body{
+    margin-bottom: 100px;
+    height: 100%;
+}
+
+
+
+footer{
+    padding-top: 70px;
+    height: 0px;
+    
+}
+
+
+
+
+
+.banner-back{
+    padding: 30px;
+    background-color: #126e82;
+	text-align: center;
+    color: white;
+    border-radius: 15px;
+    letter-spacing: 5px;
+}
+
+.banner-sm-btn{
+    padding: 20px;
+    background-color: #126e82;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.banner-sm-btn:hover{
+    background-color: #132c33;
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.end-btn{
+    align-content: flex-end;
+}
+
+#control-lg {
+    display: none;
+}
+
+@media screen and (max-width: 992px) and (max-height: 500px){
+    #control-lg {
+        display: flex;
+    }
+
+    #control {
+        display: none;
+    }
+}
+
+#profileImage {
+    
+    display:block;
+    /* If you want to crop the image to a certain size, use something like this */
+    object-fit:scale-down;
+    width: 350px;
+    height: 350px;
+}
+
+.deny-btn{
+    background-color: red;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.approve-btn{
+    background-color: rgb(19, 92, 10);
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.edit-btn{
+    background-color: rgb(14, 50, 90);
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.deny-btn:hover{
+    color: white;
+}
+.approve-btn:hover{
+    color: white;
+}
+.edit-btn:hover{
+    color: white;
+}
