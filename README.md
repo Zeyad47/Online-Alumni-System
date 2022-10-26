@@ -224,4 +224,5 @@ We would like to express our deepest appreciation to our surpervisor, Dr Chiam Y
 - [Nicole Lai Yiyin](https://github.com/nic-00)
 - [Lim Xin Joe](https://github.com/Xinjoe)
 - [Rachel Ong Xin Yee](https://github.com/rachelong1)
+- [Zeyad A.Khalil](https://github.com/Zeyad47)
 
